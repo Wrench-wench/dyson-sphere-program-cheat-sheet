@@ -466,6 +466,13 @@ section .container-fluid,
   margin: 0.65rem 0 0;
 }
 
+.logistics-note,
+.power-note {
+  display: block;
+  margin: 0.5rem auto;
+  text-align: center;
+}
+
 @media (max-width: 767.98px) {
   .matrix-ratio-list {
     grid-template-columns: repeat(3, minmax(0, 1fr));
